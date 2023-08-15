@@ -110,7 +110,7 @@ ul {
   filter: contrast(90%);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .homepage-header {
     font-size: 50px;
   }
@@ -122,6 +122,10 @@ ul {
   }
   img {
     display: none;
+  }
+    .three-col-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
   }
 }
 .aboutme {
