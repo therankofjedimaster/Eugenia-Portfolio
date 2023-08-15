@@ -1,0 +1,183 @@
+body,
+.navbar {
+  font-family: 'Lato', sans-serif;
+}
+body {
+  background-color: rgb(249, 247, 244);
+}
+a {
+  font-weight: 600;
+  text-decoration: none;
+}
+a:hover,
+button:hover,
+.nav-link:hover {
+  color: #ef4b6f;
+  transition: all 200ms ease;
+}
+
+button {
+  background-color: #95e9e9;
+  border-radius: 10px;
+  border: 2px solid #272343;
+  display: block;
+  font-weight: 600;
+  padding: 10px;
+}
+footer {
+  border-top: 1px solid #272343;
+  font-style: italic;
+  margin: 20px;
+  text-align: center;
+}
+p footer {
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #272343;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+p,
+a,
+ul,
+li {
+  color: #272343;
+}
+h1 {
+  font-weight: 800;
+}
+h2 {
+  line-height: 1.5;
+  width: 100%;
+}
+h3 {
+  font-weight: 400;
+}
+h4 {
+  font-size: 30px;
+  font-weight: 600;
+}
+h5 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+li {
+  line-height: 2;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+.three-col-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.card {
+  margin: 20px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-footer {
+  padding: 0 10px 10px;
+}
+
+.card-footer
+.img-box {
+  max-width: 100%;
+  display: block;
+  filter: contrast(90%);
+}
+
+@media (max-width: 1000px) {
+  .homepage-header {
+    font-size: 50px;
+  }
+  .homepage-description {
+    font-size: 19px;
+  }
+  .usernames {
+    font-size: 15px;
+  }
+  img {
+    display: none;
+  }
+}
+.aboutme {
+  line-height: 1.5;
+  list-style: disc;
+  font-size: 20px;
+}
+.contact-button {
+  background-color: #95e9e9;
+  border-radius: 10px;
+  border: 2px solid #272343;
+  color: #272343;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  width: 150px;
+}
+.homepage {
+  background: #def0f0;
+}
+.homepage-header {
+  font-size: 60px;
+}
+.homepage-description {
+  font-size: 30px;
+}
+
+.contact-me {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+p.contact-me {
+  font-size: 20px;
+  font-weight: 500;
+}
+.usernames {
+  font-size: 25px;
+  text-align: center;
+  line-height: 2;
+}
+.usernames:hover {
+  transform: scale(1.1);
+  transition: all 200ms ease;
+}
+
+.launch:hover {
+  transform: scale(1.1);
+  transition: all 200ms ease;
+}
+.navbar-brand {
+  font-size: 21px;
+  color: #272343;
+}
+.nav-link {
+  font-size: 18px;
+}
